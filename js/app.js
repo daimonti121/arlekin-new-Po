@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#3a1149", "#f30000", "#24177c", "#ec710b",
              "#3a1149", "#f30000", "#24177c", "#ec710b"];
-var prizes = ["        Spróbuj         ponownie", "   100% do   14000 PLN", "200 DS", "100 DS", "        Nie       wygrana", "   50% do   1400 PLN", "Zakręć", "   75% do   700 PLN"];
+var prizes = ["      Spróbuj      ponownie", " 100% do  14000 PLN", "200 DS", "100 DS", "        Nie       wygrana", "  50% do  1400 PLN", "Zakręć", "   75% do   700 PLN"];
 
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
@@ -27,7 +27,7 @@ function drawRouletteWheel() {
    
     ctx = canvas.getContext("2d");
     ctx.clearRect(0,0,500,500);
-    ctx.font = 'bold 14px Arial';
+    ctx.font = 'bold 16px Arial';
     ctx.textAlign = "center";
    
     for(var i = 0; i < colors.length; i++) {
