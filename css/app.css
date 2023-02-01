@@ -488,9 +488,9 @@ canvas#canvas {
     text-align: center;
     background: #FE3737;
     border-radius: 54px;
-    font-family: 'Gotham Pro';
+    font-family: Arial;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     line-height: 125%;
     display: flex;
